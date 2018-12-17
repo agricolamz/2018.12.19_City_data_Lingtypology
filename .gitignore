@@ -1,6 +1,10 @@
 *~
-*.pdf
 *.synctex.gz
 *.log
 *.aux
 *.numbers
+*.toc
+*.snm
+*.out
+*.nav
+*.log
