@@ -1,0 +1,85 @@
+\documentclass[13pt, t]{beamer}
+
+% Presento style file
+\usepackage{config/presento}
+
+% custom command and packages
+\input{config/custom-command}
+
+\usebackgroundtemplate{\includegraphics[height=\paperwidth]{images/background.jpg}}
+
+\title{\Large lingtypology: \\ R пакет для лингвистического картографирования}
+\author[shortname]{\large Г. Мороз}
+\institute[shortinst]{\large Лаборатория языковой конвергенции, НИУ ВШЭ}
+\date{\large \begin{center} 18 декабря 2018 г. \bigskip \\ {\color{colorblue} Открытые лекции — «Городские данные»\\ Софт Культура и Инфокультура} \end{center}}
+
+\begin{document}
+
+% Title page
+\begin{frame}[plain]
+\maketitle
+\end{frame}
+
+\usebackgroundtemplate{\includegraphics[height=\paperheight]{images/background.jpg}}
+
+\framecard[colorblue]{{\color{colorwhite} \huge \#тыжлингвист}}
+
+\begin{frame}{\#тыжлингвист}
+\begin{itemize}
+\item  умеет читать на всех письменностях мира
+\item знает все языки на свете
+\item умеет распознавать каждый язык на слух \pause
+\item может рассказать о происхождении каждого слова \pause
+\item пишет без ошибок и знает все правила орфографии \pause
+\item не знает математики и программирования \pause
+\end{itemize}
+\Large все вышеперечисленное, конечно, неправда
+\end{frame}
+
+\begin{frame}{Лингвистика}
+\begin{itemize}
+\item прескриптивная \pause
+\item вся остальная
+\begin{itemize}
+\item исследования грамматики языка и языкового разнообразия
+\item исследования распределения грамматических особенностей в языках мира
+\item исследования когнитивных способностей человека и других животных, связанных с языком
+\item исследования в области NLP и их приложения
+\item исследования в области синтеза и распознования речи и языка
+\item создание компьютерных инструментов для решения самых разных задач
+\end{itemize}
+\end{itemize}
+\vfill
+Еще бывает \textit{компьютерная лингвистика}, но это обобщенный термин, которым объединяют совсем несвязанные области:
+\begin{itemize}
+\item вспомогательные инструменты лингвистического исследования и документации
+\item Computational linguistics
+\item NLP
+\end{itemize}
+\end{frame}
+
+\framecard[colorblue]{{\color{colorwhite} \huge лингвистические базы данных}}
+
+\begin{frame}{Лингвистические базы данных}
+\alert{\large Корпуса --- базы данных языкового материала}
+\begin{itemize}
+\item корпус литературных текстов
+\item \href{http://ruscorpora.ru/}{\color{colorblue} Русский национальный корпус}
+\item аудио и видео корпуса \pause
+\begin{itemize}
+\item настоящая речь, а не тексты
+\item см., например, \href{http://rsl.nstu.ru}{\color{colorblue} корпус русского жестового языка}
+\item см., например, \href{https://www.youtube.com/watch?v=OUwOvF7TqgA&feature=youtu.be&t=1m25s}{\color{colorblue} Уошо}
+\end{itemize}
+\end{itemize}
+\vfill
+\alert{\large Базы данных --- базы данных языковых структуру}
+\begin{itemize}
+\item \href{https://wals.info/}{The World Atlas of Language Structures (WALS)}
+\item \href{https://ewave-atlas.org/}{World Atlas of Varieties of English (eWAVE)}
+\item \href{https://glottolog.org/}{Glottolog} --- comprehensive reference information for the world's languages
+\item ... \href{https://clld.org/datasets.html}{и другие}
+\end{itemize}
+\end{frame}
+
+\end{document}
